@@ -27,13 +27,14 @@ class RockPaperScissorsViewController: UIViewController {
     // MARK: Rock - Segue Done Programatically
     
 @IBAction func rockSegueProgramatically() {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let resultVC = storyboard.instantiateViewController(withIdentifier: "ResultsViewController") as! ResultsViewController
     
-    let nextController: ResultsViewController
-        nextController = self.storyboard?.instantiateViewController(withIdentifier: "ResultsViewController") as! ResultsViewController
-        nextController.yourValue = "Rock"
-        nextController.compValue = randomRoshamboValue()
+    
+        resultVC.yourValue = "Rock"
+        resultVC.compValue = randomRoshamboValue()
 
-        self.present(nextController, animated: true, completion: nil)
+        self.navigationController?.pushViewController(resultVC, animated: true)
     }
     
     // MARK: Paper - Segue Done With Segue & Code

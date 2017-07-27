@@ -22,8 +22,8 @@ class ResultsViewController: UIViewController {
     
     // MARK: Actions
     
-    @IBAction func playAgain() {
-        self.dismiss(animated: true, completion: nil)
+    @IBAction func playAgain(_ sender: AnyObject) {
+       let _ = navigationController?.popToRootViewController(animated: true)
     }
 
     // MARK: Lifecycle

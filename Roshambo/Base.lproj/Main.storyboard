@@ -116,7 +116,7 @@
                                 <rect key="frame" x="125" y="430" width="71" height="74"/>
                                 <state key="normal" title="Play Again"/>
                                 <connections>
-                                    <action selector="playAgain" destination="1AI-aV-Giw" eventType="touchUpInside" id="It0-m1-HMK"/>
+                                    <action selector="playAgain:" destination="1AI-aV-Giw" eventType="touchUpInside" id="fiz-zZ-c8G"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="YNS-NX-D3W">
