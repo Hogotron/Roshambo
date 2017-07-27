@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="67L-f0-5vd">
-    <device id="retina3_5" orientation="portrait">
+    <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -35,22 +35,22 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lG7-Lp-Asc" userLabel="Scissors Button">
-                                <rect key="frame" x="122" y="207" width="76" height="65"/>
+                                <rect key="frame" x="122" y="251.5" width="76" height="65"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="76" id="IyN-QW-TTo" userLabel="width = 75"/>
                                     <constraint firstAttribute="height" constant="65" id="rCZ-0a-I37"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="scissors"/>
                                 <connections>
-                                    <segue destination="1AI-aV-Giw" kind="presentation" identifier="chooseScissors" id="364-9z-iEh"/>
+                                    <segue destination="1AI-aV-Giw" kind="show" identifier="chooseScissors" id="364-9z-iEh"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m2N-f4-avk">
-                                <rect key="frame" x="122" y="287" width="76" height="65"/>
+                                <rect key="frame" x="122" y="331.5" width="76" height="65"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="76" id="Def-dg-JXQ" userLabel="width = 75"/>
                                     <constraint firstAttribute="height" constant="65" id="OFK-Fr-rR1"/>
@@ -61,7 +61,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3ep-IP-R6D">
-                                <rect key="frame" x="122" y="127" width="76" height="65"/>
+                                <rect key="frame" x="122" y="171.5" width="76" height="65"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="76" id="SyU-5T-JBL" userLabel="width = 75"/>
                                     <constraint firstAttribute="height" constant="65" id="t0n-oL-HOt"/>
@@ -100,11 +100,11 @@
                         <viewControllerLayoutGuide type="bottom" id="gBS-hr-Y8Q"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="UgD-wU-1rq">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="g7j-6N-ogZ">
-                                <rect key="frame" x="59" y="348" width="202" height="30"/>
+                                <rect key="frame" x="59" y="392" width="202" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="0lZ-KO-Uhn"/>
                                 </constraints>
@@ -113,14 +113,14 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Igv-ov-iMM">
-                                <rect key="frame" x="125" y="386" width="71" height="30"/>
+                                <rect key="frame" x="125" y="430" width="71" height="74"/>
                                 <state key="normal" title="Play Again"/>
                                 <connections>
                                     <action selector="playAgain" destination="1AI-aV-Giw" eventType="touchUpInside" id="It0-m1-HMK"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="YNS-NX-D3W">
-                                <rect key="frame" x="80" y="140" width="160" height="200"/>
+                                <rect key="frame" x="80" y="184" width="160" height="200"/>
                                 <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </imageView>
                         </subviews>
@@ -155,6 +155,6 @@
         <image name="scissors" width="75" height="65"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="L58-8K-9Rh"/>
+        <segue reference="364-9z-iEh"/>
     </inferredMetricsTieBreakers>
 </document>
