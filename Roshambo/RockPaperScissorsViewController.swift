@@ -42,6 +42,7 @@ class RockPaperScissorsViewController: UIViewController {
         self.performSegue(withIdentifier: "choosePaper", sender: self)
         print("Clicked paper button.")
     }
+ 
     
     // MARK: Scissors - Segue Done With Storyboard
     

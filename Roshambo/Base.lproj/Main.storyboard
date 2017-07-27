@@ -84,7 +84,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="hX4-sL-hEU"/>
                     <connections>
-                        <segue destination="1AI-aV-Giw" kind="presentation" identifier="choosePaper" id="L58-8K-9Rh"/>
+                        <segue destination="1AI-aV-Giw" kind="show" identifier="choosePaper" id="L58-8K-9Rh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -155,6 +155,6 @@
         <image name="scissors" width="75" height="65"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="364-9z-iEh"/>
+        <segue reference="L58-8K-9Rh"/>
     </inferredMetricsTieBreakers>
 </document>
